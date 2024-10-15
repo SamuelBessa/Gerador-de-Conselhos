@@ -1,0 +1,60 @@
+:root{
+    --text-color: hsl(193, 38%, 86%);
+    --text-boton-color: hsl(150, 100%, 66%);
+    --card-color: hsl(217, 19%, 24%);
+    --backgroud-color: hsl(218, 23%, 16%);
+}
+
+body{
+    background-color: var(--backgroud-color);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: var(--card-color);
+    width: 290px;
+    height: 170px;
+    border-radius: 10px;
+    border: 9px solid var(--card-color);
+}
+
+.tentativa{
+    font-size: 10px;
+    color: var(--text-boton-color);
+}
+
+.text{
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.item{
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 74px;
+    margin-left: 120px;
+    background: var(--text-boton-color);
+    border: 1px solid var(--text-boton-color);
+}
+
+.fa-bell{
+    width: 30px;
+    height: 20px;
+}
+
+  .card .button:hover {
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
